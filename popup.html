@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Video Transformer</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            width: 160px;
+            text-align: center;
+            background-color: #2A2D34; /* updated for a more modern tone */
+            padding: 20px;
+        }
+        button {
+            background: linear-gradient(135deg, #1D7874, #679289);
+            border: none;
+            border-radius: 25px;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            font-size: 14px;
+            color: white;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+        button:hover {
+            background: linear-gradient(135deg, #09ad87, #057781);
+            transform: scale(1.05);
+        }
+        h3 {
+            color: white;
+            font-size:medium;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h3>Transform Video</h3>
+    <button id="invert">Flip Horizontal</button>
+    <button id="rotate">Flip Vertical</button>
+    <button id="reset">Reset</button>
+    <button id="next">Next Video</button>
+    <script src="popup.js"></script>
+</body>
+</html>
